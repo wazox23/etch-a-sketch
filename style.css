@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+}
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid
+    
+}
+
+.gridContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    grid-gap: 15px;
+   
+    
+    
+}
+
+#setColor {
+    width: 15%;
+    
+}
+
+input[type="text"]{
+    width: 8%;
+}
+
+.buttons {
+    grid-row-end: 3;
+}
+
+h1{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: monospace; 
+    letter-spacing: 10px;
+    color: white;
+}
+
+#reset {
+    position: relative;
+    left: 14.5%;
+}
+
+#black:hover{
+    background-color: black;
+    color: white;
+}
+
+#red:hover{
+    background-color: red;
+    
+}
+#yellow:hover{
+    background-color: yellow;
+    
+}
+#orange:hover{
+    background-color: orange;
+    
+}
+#green:hover{
+    background-color: green;
+  
+}
+#violet:hover{
+    background-color: violet;
+    
+}
+
+#blue:hover{
+    background-color: blue;
+    color: white;
+}
+
+.inputSize{
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+

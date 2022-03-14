@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-a-sketch</title>
+
+</head>
+<body>
+    <h1>Etch A Sketch</h1>
+    <div class="gridContainer">
+        
+        <div class="board"></div>
+        <div class="inputSize">
+            <input type="text" placeholder="Size of board" value = "16" onchange="populateBoard(this.value)"/>
+            <button id="setSize">Set size</button>
+        
+        
+        <input type="color" id ="inputColor">
+        <button id ="setColor">Set color</button>
+        </div>
+        <div class="buttons">
+            <button id="black">Black</button>
+            <button id="blue">Blue</button>
+            <button id ="red">Red</button>
+            <button id ="yellow">Yellow</button>
+            <button id="orange">Orange</button>
+            <button id="green">Green</button>
+            <button id="violet">Violet</button>
+            <button id ="reset">Reset</button>
+           
+        </div>
+       
+
+    </div>
+<script src="script.js"></script> 
+</body>
+
+</html>
